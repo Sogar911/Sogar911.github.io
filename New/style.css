@@ -1,0 +1,689 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    zoom: 72%;
+}
+
+input {
+    cursor: pointer;
+}
+
+
+h1 {
+    color: #333333;
+    font-size: 34px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    color: #333333;
+    font-size: 29px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    color: #333333;
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+    color: #333333;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    color: #333333;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+input {
+    color: #FFFFFF;;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.input-text {
+    color: #333333;
+    cursor: text;
+}
+
+section {
+    padding: 0 361px;
+    width: 1198px;
+    margin: auto;
+    /* background-color: #E5E5E5; */
+}
+
+input {
+    outline: none;
+}
+
+.hader {
+    height: 48px;
+    background: #B5CFF0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hader img {
+    cursor: pointer;
+}
+
+.hader-img-none {
+    display: none;
+}
+
+.registration {
+    width: 484px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.registration input {
+    padding: 11px 17px;  
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 22px;     
+    font-style: 15px; 
+}
+
+.registration input:nth-child(1) {
+    background: #B5CFF0;    
+}
+
+.registration input:nth-child(2) {
+    background: #FFFFFF;
+    color: #303030;
+    font-weight: bold;
+}
+
+
+.registration input:last-child {
+    background: url(img/say.png) no-repeat 18px 6px;
+    /* background: url(img/123.png) no-repeat 18px 6px; */
+    background-color: #FFFFFF;
+    width: 66px;
+    height: 40px;    
+}
+
+/* Второй экран */
+.menu {
+    height: 56px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+}
+
+.menues {
+    width: 466px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menues p {
+    font-style: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Третий экран(заказ, кафе) */
+.order-cafe {    
+    height: 295px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 426px;    
+    width: 1133px;
+}
+
+.order div {
+    margin-top: 65px;
+    width: 613px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.order h1 {
+    line-height: 50px;  
+    margin-bottom: 5px;     
+    display: inline-block; 
+    vertical-align: top;
+}
+
+.order h1 img {
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+.order p {
+    margin-bottom: 7px;
+    margin-left: 68px;
+    font-size: 19px;
+}
+
+.order p:nth-child(2) {
+    font-weight: bold;
+}
+
+.cafe svg {
+    margin-top: 22px;
+}
+
+/* Четвёртый экран(карта, достежения)*/
+.map-progress {
+    height: 575px;
+    background: #FAFAFA;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 384px;
+    padding-left: 360px;
+    width: 1180px;
+}
+
+.map {
+    margin-top: 55px;    
+    display: inline-flex;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 760px;
+    height: 460px;    
+    align-items: flex-start;   
+    flex-wrap: wrap;    
+    background-color: #fff;    
+}
+
+.map input  {
+    background: url(img/ic2.png) no-repeat 22px 12px;
+    width: 226px;
+    height: 45px;
+    background-color: #FA1943;
+    border-radius: 24px;
+    border: 0;
+    text-align: 50px;
+    padding-left: 20px;
+}
+
+.progress {
+    width: 340px;
+    margin-top: 55px;  
+}
+
+.progress h4 {
+    line-height: 28px;
+    margin-top: 26px;
+    margin-bottom: 17px;
+}
+
+.progress input {
+    margin-top: 30px; 
+    background: #7251DD;
+    border-radius: 5px;   
+    border: 0;
+    padding: 13px 26px;
+}
+
+/* Пятый экран(регистрация, связь) */
+.registration-comunication {
+    display: flex;
+    justify-content: space-between;
+}
+
+.registrations {
+    margin-top: 56px;    
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding-left: 67px;
+    padding-bottom: 61px;
+    padding-right: 68px;
+    background-color: #fff;
+}
+
+.registrations p {
+    width: 510px;
+    color: #777777;
+}
+
+.registrations h2 {
+    margin-top: 48px;
+    margin-bottom: 11px;
+}
+
+.imail-password {
+    margin-top: 20px;
+    margin-bottom: 32px;
+    width: 624px;
+    display: inline-flex;
+    justify-content: space-between;    
+}
+
+.imail-password input {
+    width: 285px;
+    height: 51px;
+    background: rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    border: 0;
+    padding-left: 15px;
+    padding-top: 5px;  
+    
+}
+
+.registrations>input {
+    display: block;
+    background: #FA1943;
+    border-radius: 5px; 
+    padding: 13px 26px;
+    border: 0;
+}
+
+.line {
+    width: 312px;
+    height: 1px;   
+    background: #E8E8E8;
+    margin: auto;
+    margin-bottom: 18px;
+
+}
+
+
+.comunication {
+    margin-top: 56px;
+    background: #F9F9F9;
+    width: 343px;
+    height: 350px;
+    padding-top: 26px;
+    /* padding-bottom: 35px; */
+    padding-left: 33px;    
+    
+}
+
+.comunication input {
+    background: url(img/WhatsApp.png) no-repeat 11px 9px;
+    padding-left: 40px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    background-color: #4BAE20;
+    border-radius: 4px;
+    border: 0;
+}
+
+.comunication p:first-child {
+    width: 223px;
+    display: inline-block;
+    line-height: 24px;
+    margin-bottom: 18px;
+    background-color: #fff;
+}
+
+.comunication> img{
+    margin-left: 31px;
+}
+
+.comunication img {
+    margin-right: 10px;
+}
+
+
+.comunication p:nth-child(5) {
+    margin-top: 16px;
+    margin-bottom: 18px;
+    vertical-align: top;
+    color: #FA1943;
+    cursor: pointer;
+}
+
+.comunication p:nth-child(6) {
+    line-height: 24px;
+    margin-bottom: 16px;
+    width: 309px;    
+}
+
+.comunication p:nth-child(7) {
+    cursor: pointer;   
+}
+
+.comunication p:nth-child(7) img {
+    vertical-align: top; 
+    color: #FA1943;
+}
+
+.comunication p:last-child  {
+    margin-top:14px; 
+    color: #3B5998;    
+    cursor: pointer;
+
+}
+
+.comunication p:last-child img  {
+    vertical-align: top;   
+}
+
+/* Последний экран(подвал) */
+.line2 {
+    width: 1440px;
+    height: 0px;
+    border: 1px solid #CACACA;
+    margin: auto;
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 72px;
+}
+
+.line-sec {
+    width: 1440px;
+    padding: 0 240px;
+}
+
+
+
+.one, .two, .three, .container-one-two {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.one {
+    margin-right: 15px;
+}
+.two p:last-child {
+    width: 95px;
+}
+
+.space {
+    display: inline-block;    
+    vertical-align: top;    
+}
+
+.space img {
+    vertical-align: top;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.space p {
+    display: inline-block;
+    line-height: 150%;   
+}
+
+.footer p {
+    margin-bottom: 15px;
+    color: #707070;
+}
+
+.footer {
+    padding-left: 875px;
+    padding-right: 457px;
+    width: 588px;
+    padding-bottom: 45px;
+}
+
+.container-one-two {
+    margin-right: 60px;
+}
+
+.footer h3 {
+    margin-bottom: 26px;
+    margin-left: 15px;
+}
+
+.social-netwirks {
+    margin-top: 10px;
+    margin-left: 17px;
+}
+
+.red-span {
+    color: #FA1943;
+    cursor: pointer;
+}
+
+.social-netwirks img{
+    cursor: pointer;
+    
+}
+
+.mobile-footer {
+    display: none;
+}
+
+
+@media screen and (max-width: 480px) {
+    
+    section {
+        padding: 0;
+        width: 360px;
+        display: flex;
+        flex-wrap: wrap;        
+    }
+
+    /* шапка */
+    .hader-img-none {
+        display: inline-block;
+    }
+
+    .hader {
+        height: 56px;
+        justify-content: space-between;
+        padding: 0 8px;
+        width: 344px;
+    }
+
+    .registration {
+        display: none;
+    }
+
+    
+    /* меню */
+    .menu {
+        display: none;
+    }
+
+    /* заказ */
+    .order-cafe {   
+        width: 360px;   
+        height: 420px;
+        align-content: space-between;
+        justify-content: center;
+        padding: 0;
+        padding-bottom: 33px;
+    }
+
+    .order {
+        width: 360px;
+    }
+    
+    .order div {
+        width: 285px;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        margin-top: 16px;
+    }
+
+    .order h1 {
+        font-size: 24px;
+        line-height: 28px;
+        margin-top: 10px;
+        margin-bottom: 14px;
+    }
+
+    .order p {
+        font-size: 16px;
+        margin: auto;
+        text-align: center;
+    }
+    .order p:last-child {
+        margin-top: 3px;
+    }
+    /* Карта */
+    .map-progress {
+        width: 360px;
+        padding: 0;
+        height: auto;   
+        margin: auto;   
+        padding-bottom: 23px;  
+        background: #F9F9F9;    }
+
+    .map img {
+        width: 344px;
+        height: 366px;
+        margin-top: 25px;
+    }    
+
+    .map {
+        align-content: flex-start;
+        justify-content: center;   
+        height: auto;    
+        background: #F9F9F9;    }
+
+    .map h2 {
+        margin-top: 19px;
+        margin-bottom: 17px;
+        font-size: 20px;
+    }
+
+    /* Достижения */
+    .progress {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 48px;
+        text-align: center;
+    }
+
+    .progress h4 {
+        margin-top: 16px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .progress p {
+        font-size: 14px;
+        line-height: 20px;
+        width: 320px;    
+        color: #777777;    
+    }
+
+    .progress input {
+        margin-top: 18px;
+    }
+    /* Регистрация */
+    .registrations {
+        margin: 0;
+        padding: 0;
+        width: 344px;
+
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 23px;
+    }
+
+    .registration-comunication {
+        /* height: 390px; */
+        padding: 0;
+        margin-top: 24px;
+    }
+
+    .registrations {        
+        width: 344px;                
+    }
+
+    .registrations p {        
+        width: 311px;
+        font-size: 14px;
+
+    }
+
+    .registrations h2 {        
+        font-size: 20px;
+    }
+    
+    .imail-password {
+        width: 312px;
+        flex-wrap: wrap;
+        justify-content: center;        
+    }
+
+    .imail-password input:last-child {
+        margin-top: 16px;
+    }
+    /* Связь */
+    .comunication {
+        margin: auto;
+        padding-left: 16px;
+        width: 354px;
+        margin-top: 24px;
+        height: auto;  
+        padding-bottom: 29px;
+
+    }
+
+    .comunication > img {
+        margin: 0;
+        margin-left: 31px;
+    }
+    .comunication p:first-child {
+        margin: 0;
+
+    }
+
+    .line {
+        width: 318px;
+        margin-top: 10px;
+        margin-bottom: 16px;
+        margin-left: 0;
+    }
+
+    .line-sec, .footer {
+        display: none;
+    }
+
+    /* мобильный подвал */
+    .mobile-footer {
+        display: flex;
+        justify-content: space-between;
+        width: 292px;
+        padding: 0 34px;
+        padding-top: 7px;
+        padding-bottom: 3px;
+        background: #FFFFFF;
+        box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.15);
+    }
+
+    .mobile-footer p {
+        font-size: 11px;
+        color: #808080;
+    }
+
+    .mobile-footer div {
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .line3 {
+        width: 360px;
+        height: 1px;   
+        background: #BDBDBD;
+        margin-top: 16px;
+    }   
+
+
+
+    
+}
+
+

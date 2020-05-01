@@ -1,0 +1,1271 @@
+
+* {
+    font-size: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    zoom: 79.1%;
+}
+
+span {
+    font-family: sans-serif;
+}
+
+.start { 
+    width: 1920px;
+    height: 1020px; 
+    margin: auto;       
+}
+
+.cap {
+    width: 1920px;
+    height: 1020px;
+    overflow: hidden;
+    margin: auto; 
+    background-image: url(cap.jpg);
+    background-position: center bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.cap-text-big1 {
+    font-size: 30px;
+    font-family: sans-serif;   
+    color: #adadab;
+    display: block;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+.cap-text-big2 {
+    font-size: 30px;
+    font-family: sans-serif;   
+    color: #adadab; 
+    display: block;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.cap-text-big3 {
+    font-size: 30px;
+    font-family: sans-serif;   
+    color: #91917a; 
+    display: block;
+    margin-top: 30px;
+    margin-left: 30px;    
+    width: 100px;
+    height: 40px;    
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Слайдер */
+.slider {
+    position: relative;
+    z-index: -100;    
+    width: 1920px;
+    height: 1020px; 
+    overflow: hidden;
+    top: -1000px;  
+}
+
+#slider-streak {
+    width: 12000px;
+    height: 1030px;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+.st1-loading-blok {
+    width: 135px;    
+    margin: auto;
+    margin-top: 335px;   
+}
+
+.st1-load {
+    margin-right: 10px;
+}
+
+.true {
+    display: none;
+}
+
+#true1 {
+    display: inline-block;
+}
+
+#false1 {
+    display: none;
+}
+
+
+/* Логотип */
+.logo-zone {
+    margin-left: 370px;
+    margin-top: 40px;    
+    width: 200px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.logo1 {
+    display: inline-block;
+    background-image: url(logos.png);
+    width: 64px;
+    height: 55px;
+}
+
+.logo2 {
+    display: inline-block;
+    background-image: url(W.png);
+    width: 115px;
+    height: 26px;
+    margin-bottom: 15px;
+}
+
+.menu {        
+    display: inline-block;
+    margin-left: 220px;
+    vertical-align: top;
+    margin-top: 65px;
+}
+
+.menu-text {
+    font-size: 14px;
+    color: #ffffff;
+    margin-right: 30px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.menu-text:hover {
+    color: #c7b299;
+}
+
+
+.navigation {    
+    display: inline-block;
+    margin-left: 65px;   
+    margin-top: 60px;
+    vertical-align: top;
+   
+}
+
+.nav1 {
+    display: inline-block;
+    background-image: url(nav1.png);
+    width: 20px;
+    height: 25px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.nav2 {
+    display: inline-block;
+    background-image: url(nav2.png);
+    width: 25px;
+    height: 25px;
+    margin-left: 28px;
+    background-repeat: no-repeat;    
+    cursor: pointer;
+    vertical-align: top;
+}
+
+.nav:hover {
+    margin-top: 0.3px;
+}
+
+.st1-text-blok-blok {    
+    height: 200px;    
+    margin-top: 280px;
+}
+
+.st1-blok-text {      
+    text-align: center;
+    width: 600px;    
+    display: inline-block;
+    margin-left: 480px;
+}
+
+.st1-arrow1 {
+    display: inline-block;
+    margin-left: 150px;
+    vertical-align: top;
+    margin-top: 120px;
+    cursor: pointer;
+}
+
+.st1-arrow2 {
+    display: inline-block;
+    margin-left: 460px;
+    vertical-align: top;
+    margin-top: 120px;
+    cursor: pointer;
+}
+
+.st-text1 {
+    font-size: 36px;
+    display: block;
+    color: #ffffff;    
+    font-family: sans-serif;
+
+}
+
+.st-text2 {
+    font-size: 52px;
+    display: block;
+    color: #ffffff;
+    margin-top: 10px;
+    font-family: sans-serif;        
+}
+
+
+.st-text3 {
+    font-size: 16px;      
+    display: block; 
+    color: #ffffff;    
+    margin-top: 20px;   
+    font-family: sans-serif;  
+    width: 575px;  
+    margin-left: 10px;    
+    line-height: 22px;
+}
+
+.st-text4 {
+    font-size: 16px;      
+    display: block; 
+    color: #ffffff;   
+    margin-top: 10px;   
+    font-family: sans-serif;
+}
+
+.b1 {
+    font-size: 52px;
+}
+
+.button1 {    
+    display: block;
+    width: 170px;
+    height: 55px;    
+    margin: auto;
+    margin-top: 15px;
+    background: #998675;
+    border-radius: 3px; 
+    text-align: center;
+    cursor: pointer;   
+}
+
+.button1:hover {
+    background: #a29080;
+}
+
+.bot1 {    
+    font-size: 14px;
+    font-family: Helvetica;
+    color: #ffffff;    
+    position: relative; 
+    top: 19px; 
+    
+}
+
+.b2 {
+    font-size: 14px;
+}
+
+
+
+                  /* Следующий экран */
+.start2 {   
+    width: 1920px;    
+    margin: auto;         
+    padding-top: 80px;  
+}
+
+.super-icon-block {    
+    margin-left: 378px;      
+}
+
+.icon-block {
+    width: 265px;
+    height: 220px;    
+    text-align: center;
+    display: inline-block;  
+    vertical-align: top;  
+    margin-right: 34px;    
+    cursor: pointer;
+}
+
+.start2-icon {    
+    margin: auto;    
+    background-repeat: no-repeat;
+}
+
+.st2-icon1 {
+    width: 49px;
+    height: 45px;
+    background: url(icon1.png);
+}
+
+.st2-icon2 {
+    width: 43px;
+    height: 40px;
+    background: url(icon2.png);
+}
+
+.st2-icon3 {
+    width: 45px;
+    height: 45px;
+    background: url(icon3.png);
+}
+
+
+.st2-icon4 {
+    width: 52px;
+    height: 35px;
+    background: url(icon4.png);
+    background-repeat: no-repeat;
+}
+
+
+.st2-text-big {
+    position: relative;
+    font-size: 22px;
+    font-family: sans-serif;  
+    top: 30px;
+    color: #555555;
+   
+}
+
+.st2-text-little {
+    position: relative;
+    font-size: 14px;
+    display: inline-block;
+    font-family: sans-serif;
+    top: 45px; 
+    color: #8c8c8c;
+    line-height: 22px;
+}
+
+.border {    
+    width: 71px;
+    border-bottom: 3px solid #f1eee9;
+    margin: auto;
+    margin-top: 90px;   
+}
+
+            /* Вторая часть страницы */
+.present-text-blok {
+    margin-left: 580px;
+    margin-top: 150px;
+    width: 760px;
+    text-align: center;
+
+}
+
+.present-text-big {
+    font-size: 30px;
+    font-family: sans-serif;
+    display: block;
+    color: #555555;
+}
+
+.present-text-little {
+    font-size: 16px;
+    font-family: sans-serif;
+    display: block;
+    margin-top: 18px;
+    line-height: 28px;
+    color: #8c8c8c;
+}
+
+.present {
+    margin-top: 40px;
+    margin-left: 350px;
+}
+
+       /* Полоса между экранами */
+.streak {
+    height: 150px;
+    background-image: url(streak.png);
+    width: 1920px;
+    margin: auto;
+    overflow: auto;
+}
+
+.streak-text-blok {
+    margin-left: 380px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.streak-text1 {
+    font-size: 28px;
+    font-family: sans-serif;
+    color: #9d8b78;
+}
+
+.streak-text2 {
+    font-size: 28px;
+    margin-left: 9px;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+.streak-text3 {
+    font-size: 18px;
+    display: block;
+    font-family: sans-serif;
+    color: #5d5451;
+    margin-top: 5px;    
+}
+
+.streak-button {
+    width: 170px;
+    height: 50px;
+    background: #998675;
+    border-radius: 4px;
+    display: inline-block;    
+    vertical-align: top;
+    margin-left: 470px;
+    margin-top: 50px;
+    text-align: center;    
+    cursor: pointer;
+}
+
+.streak-button:hover {
+    background: #a29080;
+}
+
+.streak-button-text {
+    font-size: 14px;      
+    color: #ffffff;
+    font-family: sans-serif;    
+    position: relative;
+    top: 17px;
+}
+
+            /* Третий экран */
+.start3 {
+    width: 1920px;
+    height: 1170px;
+    margin: auto;    
+    overflow: auto;
+}
+
+.st3-blok-text {
+    width: 760px;
+    height: 94px;    
+    margin-top: 80px;    
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.st3-text-big {
+    font-size: 30px;    
+    display: block;
+    color: #555555;
+}
+
+.st3-text-little {
+    margin-top: 9px;
+    font-size: 16px; 
+    display: block;
+    line-height: 24px;
+    color: #8c8c8c;
+}
+
+
+/* Кнопки */
+.st3-blok-button {
+    margin-left: 660px;    
+    margin-top: 40px;
+}
+
+.st3-button-text{
+    font-size: 18px;
+    color: #8c8c8c;
+}
+
+.st3-button-select {
+    color: #ffffff;
+}
+
+.st3butt {
+    display: inline-block;
+    border: 1px solid #ebebeb;
+    margin-right: 10px;
+    text-align: center;  
+    line-height: 30px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.st3-button1 {    
+    width: 70px;
+    height: 30px;
+    background: #998675;
+}
+
+.st3-button2 {    
+    width: 120px;
+    height: 30px;
+}
+
+.st3-button3 {    
+    width: 120px;
+    height: 30px;
+}
+
+.st3-button4 {    
+    width: 120px;
+    height: 30px;
+}
+
+.st3-button5 {   
+    width: 135px;
+    height: 30px;
+}
+
+/* Фотографии */
+
+.st3-photo-blok-blok {    
+    width: 1200px;    
+    height: 705px;    
+    margin: auto;
+    margin-top: 40px;    
+   
+}
+
+.st3-photo-blok-blok2{
+    display: none;
+}
+
+.st3-photo-blok-blok3{
+    display: none;
+}
+
+.st3-photo-blok-blok4{
+    display: none;
+}
+
+.st3-photo-blok-blok5{
+    display: none;
+}
+
+.st3-photo-blok-blok6{
+    display: none;
+}
+
+
+
+.st3-photo-blok {
+    display: inline-block;
+    height: 330px;    
+    margin-right: 30px;
+    vertical-align: top;       
+}
+
+.st3-photo1 {
+    width: 370px;
+    height: 240px;
+    background: url(str3img1.png);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.st3-photo2 {
+    width: 370px;
+    height: 240px;
+    background: url(str3img2.png);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.st3-photo3 {
+    width: 370px;
+    height: 240px;
+    background: url(str3img3.png);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.st3-photo4 {
+    width: 370px;
+    height: 240px;
+    background: url(str3img4.png);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.st3-photo5 {
+    width: 370px;
+    height: 240px;
+    background: url(str3img5.png);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.st3-photo6 {
+    width: 370px;
+    height: 240px;
+    background: url(str3img6.png);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.st3-navigation-blok {
+    width: 80px;
+    height: 25px;    
+    margin: auto;
+    margin-top: 105px;     
+    display: none;  
+}
+
+.st3-lupa2 {
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.st3-lupa1 {    
+    cursor: pointer;
+}
+
+.st3-photo-text-blok-blok {
+    position: relative;    
+    width: 369px;    
+    height: 100px;
+    background-image: url(bott4.png);       
+    overflow: auto;
+    top: -10px;       
+}
+
+.st3-photo-text-blok {
+    margin-top: 30px;
+    margin-left: 25px;   
+}
+
+.st3-photo-text-big {
+    color: #c7b299;
+    font-size: 20px;
+}
+
+.st3-photo-text-little {
+    color: #d1d1d1;
+    font-size: 14px;
+    display: block;
+    line-height: 26px;
+    position: relative;
+}
+
+.photo-blok-niz {
+    margin-top: 28px;
+}
+
+.st3-photo-button {
+    width: 170px;
+    height: 50px;
+    text-align: center;
+    line-height: 52px;
+    margin: auto;
+    margin-top: 20px;
+    background: #998675;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.st3-photo-button:hover {
+    background: #a29080;
+}
+
+.st3-photo-button-text {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+
+        /* Четвёртый экран. (С видео) */
+.start4 {    
+    width: 1920px;
+    height: 700px; 
+    margin: auto;       
+    /* overflow: auto;   */
+    background-image: url(photo-video.png);       
+}
+
+#video {    
+    height: 700px;
+    margin-left: 335px;
+    display: none;
+    
+}
+
+.button {
+    width: 90px;
+    height: 90px;
+    background-image: url(circle.png);
+    background-size: cover;
+    cursor: pointer;
+    position: relative;    
+    left: 900px;
+    top: 230px;
+}
+
+.st4-text-blok {
+    width: 560px;
+    height: 100px;   
+    margin-left: 675px;
+    margin-top: 260px;
+    text-align: center;
+}
+
+.st4-text-big {
+    font-size: 30px;
+    color: #ffffff;
+    display: block;
+}
+
+.st4-text-little {
+    font-size: 16px;
+    color: #ffffff;
+    display: block;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+        /* Пятый экран */
+.start5 {
+    width: 1920px;
+    /* height: 700px;  */
+    margin: auto; 
+}
+
+.iPhone {
+    margin-left: 420px;
+    margin-top: 80px;
+}
+
+.st5-blok-blok {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.st5-blok-text1 {    
+    width: 600px;
+    height: 160px;    
+    vertical-align: top;
+    margin-left: 20px;
+    margin-top: 190px;
+}
+
+.st5-blok-text2 {
+    width: 600px;
+    height: 125px;    
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.st5-text-big {
+    font-size: 30px;
+    color: #555555;
+    font-family: sans-serif;
+}
+
+.st5-text-little {
+    font-size: 16px;
+    color: #8c8c8c;
+    display: block;
+    margin-top: 30px;
+}
+
+
+.blok-arow-text {
+    margin-bottom: 10px;
+}
+
+.arrow {
+    display: block;    
+    display: inline-block;
+}
+
+.arrow-text {    
+    position: relative;
+    font-size: 16px;
+    color: #8c8c8c;     
+    margin-left: 22px;  
+    top: 2px;
+    vertical-align: top;         
+}
+
+        /* Шестой экран */
+.st6 {
+    height: 300px;
+    width: 1920px;    
+    margin: auto;    
+    overflow: auto;
+    background-image: url(streak2.png);    
+}
+
+.st6-blok-blok {
+    margin-left: 450px;
+    margin-top: 65px;       
+}
+
+.st6-blok {
+    width: 135px;
+    text-align: center;    
+    display: inline-block;
+}
+
+
+.st6-nomber {
+    color: #f1f0f0;
+    font-size: 48px;
+    display: block;
+    margin-top: 30px;
+}
+
+.st6-text {
+    color: #c7b299;
+    font-size: 14px;
+    display: block;
+    margin-top: 20px;
+}
+
+.line {
+    width: 30px;
+    border-bottom: 2px solid #ffffff;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.st6blok2 {
+    margin-left: 70px;
+}
+
+.st6blok3 {
+    margin-left: 80px;
+}
+
+.st6blok4 {
+    margin-left: 105px;
+}
+
+.st6blok5 {
+    margin-left: 110px;
+}
+
+        /*Седьмой экран  */
+.start7 {    
+    width: 1920px;
+    height: 700px; 
+    margin: auto;        
+    padding-top: 80px;        
+}   
+
+.st7-blok-text {
+    width: 760px;
+    height: 100px;
+    margin-left: 580px;          
+    text-align: center;
+}
+
+.st7-text-big {
+    font-size: 30px;
+    color: #555555;
+    font-family: sans-serif;
+    display: block;
+}
+
+.st7-text-litlle {
+    font-size: 16px;
+    color: #8c8c8c;
+    margin-top: 10px;    
+    display: block;
+    line-height: 25px;    
+}
+
+
+
+/* Фото часть */
+.st7-photo-blok-blok {
+    width: 1190px;
+    height: 395px;    
+    margin: auto;
+    margin-top: 40px;        
+}
+
+.st7-photo-blok {
+    width: 370px;
+    height: 370px;   
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 25px;  
+    transition: all ease 0.2s;   
+}
+
+
+.st7-photo1 {
+    background-image: url(st7-photo1.png);
+    height: 220px;   
+    cursor: pointer;  
+}
+
+.st7-photo2 {
+    background-image: url(st7-photo2.png);
+    height: 220px;   
+    cursor: pointer; 
+}
+
+.st7-photo3 {
+    background-image: url(st7-photo3.png);
+    height: 220px;
+    cursor: pointer; 
+}
+
+.st7-number-blok-blok {
+    width: 50px;
+    height: 60px;    
+    position: relative;
+    top: 20px;
+    left: 20px;
+    border-radius: 5px;     
+}
+
+.st7-number-blok-top {
+    height: 35px;
+    background: #363636;  
+    text-align: center;   
+    line-height: 38px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px; 
+    transition: all ease 0.2s;   
+}
+
+.st7-number-blok-bott{
+    height: 25px;
+    background: #252525;
+    text-align: center;
+    line-height: 25px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.st7-number-top {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.st7-number-bott {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.st7-blok-photo-text {
+    width: 300px;
+    height: 115px;    
+    margin: auto;
+    margin-top: 30px;   
+}
+
+.st7-photo-text-big {
+    font-size: 20px;
+    color: #555555;
+}
+
+.st7-photo-text-little {
+    font-size: 14px;
+    color: #8c8c8c;
+    display: block;
+    margin-top: 10px;
+}
+
+.st7-photo-text-hidden {
+    font-size: 14px;
+    color: #8c8c8c;
+    margin-top: 5px;
+}
+
+.st7-photo-link-blok {
+    display: block;
+    margin-top: 15px;
+    width: 100px;   
+    cursor: pointer;    
+    height: 30px;
+}
+
+.st7-photo-link {
+    font-size: 14px;
+    color: #c7b299;       
+}
+
+.st7-photo-link-arrow {
+    margin-left: 10px;
+}
+
+.st7-button-blok {
+    width: 55px;
+    height: 25px;    
+    margin: auto;
+    margin-top: 40px;   
+}
+
+.st7-right {
+    background: url(st7-right.png);
+    margin-left: 8px;
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+}
+
+.st7-right:hover {
+    background: url(st7-right2.png);
+}
+
+.st7-left {
+    width: 22px;
+    height: 22px;
+    background: url(st7-left.png);
+    cursor: pointer;
+    display: inline-block;
+}
+
+.st7-left:hover {
+    background: url(st7-left2.png);
+}
+
+
+
+
+
+            /* Восьмой экран */
+.start8 {
+    width: 1920px;
+    height: 480px; 
+    margin: auto;     
+    background: url(start8.png);      
+    overflow: hidden;    
+}            
+
+.st8-logo-blok {
+    margin-left: 400px;   
+    width: 1200px;
+    height: 230px;
+    margin-top: 140px; 
+}
+
+.st8-logo {
+    margin-right: 90px;
+    vertical-align: top;    
+    cursor: pointer; 
+}
+
+.st8log1, .st8log3 {
+    margin-top: 50px;
+}
+
+.st8log4 {
+    margin-top: 30px;    
+}
+
+        /* Девятый экран */
+
+.start9 {
+    width: 1920px;
+    height: 520px; 
+    margin: auto;     
+    background: #191919;      
+    overflow: hidden;    
+} 
+
+/* Первый блок */
+.st9-blok1 {
+    height: 300px;
+    width: 270px;
+    margin-left: 375px;
+    margin-top: 80px;   
+    display: inline-block;     
+}
+
+.st9-bl1-text-little {
+    display: block;
+    font-size: 14px;
+    color: #555555;
+    margin-top: 25px;
+    line-height: 22px;
+}
+
+
+.st9-link-arrow-blok {
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.st9-link-arrow-text {
+    font-size: 14px;
+    color: #d1d1d1;
+    margin-right: 10px;
+}
+
+/* Второй блок */
+.st9-super-blok {
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 40px;
+    width: 1000px;
+    height: 350px;    
+    vertical-align: top;
+}
+
+.st9-blok2, .st9-blok3 {
+    display: inline-block;
+    width: 276px;
+    height: 330px;   
+    vertical-align: top;    
+    margin-right: 30px; 
+}
+
+.st9-text-big {
+    font-size: 24px;
+    color: #ffffff;    
+}
+
+.st9-date-top1 {
+    font-size: 12px;
+    color: #363636;
+    display: block;
+    margin-top: 21px;    
+}
+
+.st9-bl2-text-little {
+    display: block;
+    font-size: 14px;
+    color: #555555;    
+    line-height: 22px; 
+    margin-top: 6px;
+}
+
+.st9-line {
+    width: 270px;
+    border-bottom: 1px solid #252525;
+    margin-top: 14px;
+}
+
+.st9-date-top2 {
+    font-size: 12px;
+    color: #363636;
+    display: block;
+    margin-top: 15px;    
+}
+
+/* Третий блок */
+.st9-bl3-blok-text-little {
+    margin-top: 21px;
+}
+
+.st9-link2 {
+    color: #00bff3;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.st9-bl3-text-little {    
+    font-size: 14px;
+    color: #555555;    
+    line-height: 22px;       
+}
+
+.st9-date-bott {
+    font-size: 12px;
+    color: #363636;
+    display: block;
+    margin-top: 6px;    
+}
+
+.st9-link3 {
+    color: #959595;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Четвёртый блок */
+.st9-blok4 {
+    display: inline-block;
+    width: 300px;
+    height: 280px;   
+    vertical-align: top;   
+    margin-right: 30px; 
+}
+
+.st9-photo-blok {
+    margin-top: 21px;
+    width: 295px;
+    height: 220px;    
+}
+
+.st9-photo {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+        /* Десятый экран */
+.start10 {
+    width: 1920px;
+    height: 110px; 
+    margin: auto;     
+    background: #111111;      
+    overflow: hidden; 
+}
+
+.st10-blok-text1 {
+    display: inline-block;
+    width: 410px;
+    /* background: red; */
+    height: 30px;
+    margin-left: 370px;
+    margin-top: 47px;
+    vertical-align: top;
+}
+
+.st10-blok-text2 {
+    display: inline-block;
+    width: 410px;
+    /* background: red; */
+    height: 30px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+.st10text {
+    font-size: 13px;
+}
+
+.st10-text {
+    color: #3f3f3f;
+}
+
+.st10-link1 {
+    color: #959595; 
+    cursor: pointer;   
+}
+
+.st10-link1:hover {
+    color: #9b8a77; 
+}
+
+.st10-line {
+    color: #252525;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+

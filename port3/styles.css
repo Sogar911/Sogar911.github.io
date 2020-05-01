@@ -1,0 +1,546 @@
+* {
+    margin: 0;
+    font-size: 0;
+    padding: 0;   
+}
+
+.cap {
+    width: 1500px;
+    height: 700px;
+    overflow: hidden;
+    margin: auto; 
+    background-image: url(cap.jpg);
+    background-position: center bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.cap-text-big1 {
+    font-size: 30px;
+    font-family: sans-serif;   
+    color: #adadab;
+    display: block;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+.cap-text-big2 {
+    font-size: 30px;
+    font-family: sans-serif;   
+    color: #adadab; 
+    display: block;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.cap-text-big3 {
+    font-size: 30px;
+    font-family: sans-serif;   
+    color: #91917a; 
+    display: block;
+    margin-top: 30px;
+    margin-left: 30px;    
+    width: 100px;
+    height: 40px;
+    /* <a href="index.html" class="cap-text-big3">Назад</a> */
+}
+
+.cap-text-big3:hover {
+    color: #5a5a3a; 
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.screen1 {
+    width: 1500px;
+    height: 130px;
+    overflow: hidden;
+    margin: auto;   
+    background: #faf6f6; 
+}
+
+.scr1-block {
+    margin: auto;
+    margin-top: 50px;
+    width: 1200px;
+    height: 30px;
+}
+
+.navigation {
+    display: inline-flex;
+    width: 520px;
+    height: 20px;
+    margin-left: 550px;    
+    vertical-align: top;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+
+.logo {   
+    display: inline-block;
+    font-size: 40px;   
+    line-height: 30px; 
+    font-family: sans-serif;
+    color: #4d4d4d;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.navigation-text {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #4d4d4d;    
+}
+
+.navigation-text:hover {
+    border-bottom: 1px solid #4d4d4d;
+    cursor: pointer;
+} 
+
+/* Второй экран */
+.screen2 {
+    width: 1500px;
+    height: 650px;
+    background-image: url(screen3.png);
+    margin: auto;
+    overflow: hidden;
+}
+
+.scr2-block {
+    width: 730px;
+    height: 180px;
+    margin: auto;
+    margin-top: 225px;
+    text-align: center;
+}
+
+.scr2-text-big {
+    font-size: 48px;
+    font-family: sans-serif;   
+    color: #4d4d4d; 
+}
+
+.scr2-text-little {
+    font-size: 16px;
+    font-family: sans-serif;   
+    line-height: 50px;
+    color: #4d4d4d; 
+}
+
+.scr2-button {
+    display: block;
+    width: 290px;
+    height: 50px;
+    background-color: #4d4d4d;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.scr2-button101 {
+    width: 290px;
+    height: 50px;
+    background: rebeccapurple;
+}
+
+.lal101 {
+    width: 290px;
+    height: 150px;    
+    border: 2px solid #4d4d4d;     
+    }
+
+.scr2-button-text {
+    font-size: 18px;
+    font-family: sans-serif;   
+    line-height: 50px;
+    color: #ffffff; 
+    margin-left: 80px;
+    vertical-align: top;
+}
+
+.arrow {
+    margin-left: 10px;
+    vertical-align: top;
+    margin-top: 23px;
+}
+
+/* Третий экран */
+.screen3 {
+    width: 1500px;
+    height: 420px;
+    margin: auto;
+    overflow: hidden;
+    background: #faf6f6; 
+}
+
+.scr3-block-block {
+    display: inline-flex;
+    width: 1200px;
+    height: 220px;    
+    margin-top: 100px;
+    margin-left: 150px;
+    /* background: lightblue;     */
+    justify-content: space-between;
+}
+
+.scr3-block {
+    width: 350px;
+    height: 220px;
+    text-align: center;
+}
+
+.scr3-text-big {
+    display: block;
+    font-size: 22px;
+    font-family: sans-serif;
+    margin-top: 25px;
+    color: #4d4d4d;
+}
+
+.scr3-text-little {
+    display: block;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #727272;
+    margin-top: 25px;
+    line-height: 20px;
+}
+
+.streak {
+    width: 1500px;    
+    border-bottom: 1px solid #e7e7e7;
+    margin: auto;
+}
+
+/* Четвёртый экран */
+.screen4 {
+    width: 1500px;
+    height: 620px;
+    margin: auto;
+    overflow: hidden;
+    background: #faf6f6; 
+}
+
+.scr4-block {
+    width: 750px;
+    height: 100px;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.scr4-text-big {
+    font-family: sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #4d4d4d;
+}
+
+.scr4-text-little {
+    font-family: sans-serif;
+    font-size: 16px;    
+    color: #727272;
+    line-height: 20px;
+    display: block;    
+    width: 565px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.video {
+    margin-top: 50px;
+    width: 700px;
+    margin-left: 400px;  
+    display: none; 
+}
+
+.button {    
+    vertical-align: top;    
+    cursor: pointer;   
+    margin-left: 300px;  
+    margin-top: 160px;
+}
+.imgVideo {
+    margin-top: 50px;
+    width: 700px;
+    height: 380px;
+    margin-left: 400px; 
+    background-image: url(video-img.png);
+    background-repeat: no-repeat;
+}
+
+/* Пятый экран */
+.screen5 {
+    width: 1500px;
+    height: 520px;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;    
+}
+
+.scr5-text-big {
+    display: block;
+    font-family: sans-serif;
+    font-size: 30px;      
+    margin-top: 100px;
+    color: #4d4d4d;    
+    text-transform: uppercase;
+}
+
+.scr5-block-block {
+    display: inline-flex;
+    margin: auto;
+    margin-top: 80px;
+    width: 1200px;
+    height: 320px;
+    justify-content: space-between;
+}
+
+.scr5-block {    
+    width: 250px; 
+    height: 320px;
+    background: #f7f7f7;
+    cursor: pointer;    
+    /* background-image: url(sity1.jpg);     */
+    background-size: 130%;
+    background-repeat: no-repeat;
+}
+
+.scr5-block-text {
+    width: 90px;
+    height: 40px;
+    text-align: left;
+    margin: auto;
+    margin-top: 140px;
+}
+
+.scr5-block-text-big {
+    display: block;
+    font-family: sans-serif;
+    font-size: 25px; 
+    color: #d2d1d1;
+}
+
+.scr5-block-text-little {
+    font-family: sans-serif;
+    font-size: 10px; 
+    color: #d2d1d1;
+}
+
+.scr5-block-botton {
+    position: relative;
+    width: 250px;
+    height: 50px;
+    background: #575757;
+    margin-top: 75px;    
+    display: none;
+}
+
+.scr5-block-botton-text {
+    display: inline-block;    
+    width: 140px;
+    height: 20px;    
+    margin: 20px;
+}
+
+.scr5-block-botton-text-big {
+    font-family: sans-serif;
+    font-size: 16px; 
+    color: #ffffff;    
+}
+
+.scr5-arrow {
+    margin-left: 10px;
+    vertical-align: top;
+    margin-top: 8px;
+}
+
+/* Шестой экран */
+.screen6 {
+    width: 1500px;
+    height: 360px;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 120px;
+    background: #f5f5f5;
+
+}
+
+.scr6-text-big {
+    font-family: sans-serif;
+    font-size: 30px; 
+    color: #4d4d4d;
+    display: block;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+
+.scr6-text-little {
+    font-family: sans-serif;
+    font-size: 14px; 
+    color: #717171;
+    line-height: 40px;
+}
+
+.scr6-button {
+    display: block;
+    width: 310px;
+    height: 45px;
+    border: 2px solid #4d4d4d;
+    border-radius: 40px;
+    margin: auto;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.scr6-button-text-big {    
+    font-family: sans-serif;
+    font-size: 16px; 
+    color: #4d4d4d;
+    line-height: 45px;
+    text-transform: uppercase;
+}
+
+/* Седьмой экран */
+.screen7 {
+    width: 1500px;
+    height: 270px;
+    margin: auto;
+    overflow: hidden;    
+}
+
+.scr7-block-block {
+    display: inline-flex;
+    width: 450px;
+    height: 75px;    
+    margin-top: 100px;
+    margin-left: 525px;
+    justify-content: space-between;
+}
+
+.scr7-block {    
+    width: 70px;
+    height: 70px;
+    border: 2px solid #4d4d4d;    
+    cursor: pointer;
+}
+
+.scr7-block:hover {
+    background: #55acee;
+    border: 2px solid #55acee; 
+}
+
+.scr7-img1 {
+    display: block;    
+    margin: auto;    
+    margin-top: 25px;         
+}
+
+.scr7-img2 {    
+    display: none;  
+    margin: auto;   
+    margin-top: 25px;     
+}
+
+/* Восьмой экран */
+.screen8 {
+    width: 1500px;
+    height: 350px;
+    background: #3b3b3b;
+    margin: auto;
+    overflow: hidden;  
+}
+
+.scr8-block-block {
+    width: 1200px;
+    height: 160px;
+    margin-left: 150px;
+    margin-top: 100px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.scr8-block-text-big {
+    display: block;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.scr8-block-text-little {
+    display: block;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #ffffff;  
+    margin-bottom: 8px;  
+}
+
+.scr8-block-text-number {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #b5b5b5; 
+}
+
+.scr8-block-link {
+    margin-top: 10px;
+}
+
+.scr8-block-link-text-little {    
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #b5b5b5;   
+    margin-right: 5px;  
+    border-bottom: 1px solid #fefefe;
+    cursor: pointer;
+}
+
+.scr8-block-link-text-little:hover {
+    border: none;
+}
+
+/* Второй блок */
+.scr8-block2-text-big {
+    display: block;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.scr8-block2-text-little {
+    display: block;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #ffffff;  
+    margin-bottom: 10px;  
+}
+
+.scr8-block-text-little2 {    
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #ffffff;  
+    line-height: 30px;      
+}
+
+.scr8-block-text-link {    
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #b5b5b5;   
+    margin-left: 5px;  
+    border-bottom: 1px solid #fefefe;
+    cursor: pointer;
+}
+
+.scr8-block-text-link:hover {
+    border: none;
+}

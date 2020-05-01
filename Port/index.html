@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">      
+        <title>Портфолио</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="app.js" defer></script>
+    </head>
+    <body>        
+        <div class="start">
+            
+            <a href="index.html">
+                <div class="logo-zone">
+                    <div class="logo1"></div>
+                    <div class="logo2"></div>                           
+                </div>
+            </a>
+            <div class="menu">
+                <a href="cap.html" class="menu-text">Home</a>
+                <a href="cap.html" class="menu-text">About Us</a>
+                <a href="cap.html" class="menu-text">Portfolio</a>
+                <a href="cap.html" class="menu-text">Features</a>
+                <a href="cap.html" class="menu-text">Blog</a>
+                <a href="cap.html" class="menu-text">Pricing</a>
+                <a href="cap.html" class="menu-text">Shortcodes</a>
+                <a href="cap.html" class="menu-text">Contact</a>         
+            </div>
+            
+            <div class="navigation">
+                <a href="cap.html">
+                    <div class="nav1 nav"></div>
+                </a>
+                <a href="cap.html">
+                    <div class="nav2 nav"></div>
+                </a>
+            </div>
+
+            <!-- Средний текст -->
+            <div class="st1-text-blok-blok">
+                <img src="st1-left.png" class="st1-arrow1" onclick="sli2()" >                
+                <div class="st1-blok-text">
+                    <span class="st-text1">Unique and Modern Design</span>
+                    <span class="st-text2"> <b class="b1">Portfolio PSD Template </b> </span>                
+                    <span class="st-text3">Nam liber tempor cum soluta nobis eleifend option congue nihil imper-diet doming id quod mazim placerat facer possim assum</span>
+                </div>
+                <img src="st1-right.png" class="st1-arrow2" onclick="sli()">
+            </div>    
+          
+            <a href="cap.html" class="button1">
+                <span class="bot1"> <b class="b2">GET STARTED </b> </span>
+            </a>             
+            
+
+            <!-- Счётчик слайдера -->
+            <div class="st1-loading-blok">
+                <img src="loading-false.png" class="st1-load false false1" id="false1">
+                <img src="loading-true.png" class="st1-load true true1" id="true1">
+                <img src="loading-false.png" class="st1-load false false2" id="false2">
+                <img src="loading-true.png" class="st1-load true true2" id="true2">
+                <img src="loading-false.png" class="st1-load false false3" id="false3">
+                <img src="loading-true.png" class="st1-load true true3" id="true3">
+                <img src="loading-false.png" class="st1-load false false4" id="false4">
+                <img src="loading-true.png" class="st1-load true true4" id="true4">
+                <img src="loading-false.png" class="st1-load false false5" id="false5">
+                <img src="loading-true.png" class="st1-load true true5" id="true5">
+                <img src="loading-false.png" class="st1-load false false6" id="false6">
+                <img src="loading-true.png" class="st1-load true true6" id="true6">
+            </div>             
+
+            <!-- Слайдер -->
+            <div class="slider">
+                <div id="slider-streak">
+                    <img src="start.png" class="slider-img">
+                    <img src="slider-img2.jpg" class="slider-img">
+                    <img src="slider-img3.jpg" class="slider-img">
+                    <img src="slider-img4.jpg" class="slider-img">
+                    <img src="slider-img5.jpg" class="slider-img">
+                    <img src="slider-img6.jpg" class="slider-img">
+                </div> 
+            </div>
+        </div>          
+       
+        
+                       <!-- Второй экран -->
+        <div class="start2">               
+
+            <div class="super-icon-block">
+                <!-- Первый блок -->
+                <div class="icon-block" onclick="Icon1()">                    
+                    <div class="start2-icon st2-icon1"></div>    
+                    <span class="st2-text-big">Web & App Design</span> 
+                    <span class="st2-text-little">Nam liber tempor cum soluta nobis eleifend option concue nihil imperdiet doming id quod mazim</span>
+                    <div class="border"></div>
+                </div>
+
+                <!-- Второй блок -->
+                <div class="icon-block" onclick="Icon2()">
+                    <div class="start2-icon st2-icon2"></div>                    
+                    <span class="st2-text-big">Development</span> 
+                    <span class="st2-text-little">Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet</span>
+                    <div class="border"></div>
+                </div>
+                <!-- Третиё блок -->
+                <div class="icon-block" onclick="Icon3()">
+                        <div class="start2-icon st2-icon3"></div>    
+                    <span class="st2-text-big">Customization</span> 
+                    <span class="st2-text-little">Nam liber tempor cum soluta nobis eleifend option concue nihil imperdiet doming id quod mazim</span>
+                    <div class="border"></div>
+                </div>
+
+                <!-- Четвёртый блок -->
+                <div class="icon-block" onclick="Icon4()">
+                        <div class="start2-icon st2-icon4"></div>    
+                    <span class="st2-text-big">Marketing</span> 
+                    <span class="st2-text-little">Nam liber tempor cum soluta nobis eleifend option concue nihil imperdiet doming id quod mazim</span>
+                    <div class="border"></div>
+                </div>
+            </div>   
+            
+            <!-- Вторая часть страницы -->
+            <div class="present-text-blok">
+                <span class="present-text-big">Waxom is Realization of your ideas</span>
+                <span class="present-text-little">Investigationes demonstraverunt lectores legere me lius quod li legunt seaplus. Claritas est etiam processus dynamicus. Qui sequitur mutationem consuetudium.</span>
+            </div>
+            <img src="present.png" class="present">   
+        </div>
+
+                        <!-- Полоса между экранами -->
+        <div class="streak">
+            <div class="streak-text-blok">
+                <span class="streak-text1">Waxom</span>
+                <span class="streak-text2">Multipurpose WordPress Theme</span>
+                <span class="streak-text3">Don't Forget to Rate the Template. Thanks so much!</span>
+            </div>
+            <!-- Кнопка -->
+            <a href="cap.html">
+                <div class="streak-button">
+                    <b class="streak-button-text">PURCHASE NOW</b>                
+                </div>
+            </a>
+        </div>
+
+                    <!-- Третий экран -->
+        <div class="start3">
+            <div class="st3-blok-text">
+                <span class="st3-text-big">Our Latest Projects</span>
+                <span class="st3-text-little">Investigationes demonstraverunt lectores legere me lius quod li legunt seaplus. Claritas est etiam processus dynamicus. Qui sequitur mutationem consuetudium.</span>
+            </div>
+
+            <!-- Кнопки -->
+            <div class="st3-blok-button">
+                <div class="st3-button1 st3butt" onclick="Shot1()">
+                    <span class="st3-button-text st3-button-select">all</span> 
+                </div>
+                <div class="st3-button2 st3butt"  onclick="Shot2()">
+                    <span class="st3-button-text">Web Design</span> 
+                </div>
+                <div class="st3-button3 st3butt" onclick="Shot3()">
+                    <span class="st3-button-text">Mobile App</span> 
+                </div>    
+                <div class="st3-button4 st3butt" onclick="Shot4()">
+                    <span class="st3-button-text">illustration</span> 
+                </div>
+                <div class="st3-button5 st3butt" onclick="Shot5()">
+                    <span class="st3-button-text">Pfotography</span> 
+                </div>
+            </div>
+
+            <!-- Фото. Первый див-->
+            <div class="st3-photo-blok-blok  st3-photo-blok-blok1">
+                <!-- Первое фото -->
+                <div class="st3-photo-blok">                    
+                    <div class="st3-photo1 st3-photo" onclick="Lupa1()">
+                        <div class="st3-navigation-blok">
+                            <img src="st3-lupa1.png" class="st3-lupa1">
+                            <img src="st3-lupa2.png" class="st3-lupa2">
+                        </div>
+                    </div>
+                    <div class="st3-photo-text-blok-blok">
+                        <div class="st3-photo-text-blok">
+                            <span class="st3-photo-text-big">Claritas Etiam Processus</span>
+                            <span class="st3-photo-text-little">Photography. Nature</span>
+                        </div>
+                    </div>                      
+                </div>   
+
+                <!-- Второе фото -->
+                <div class="st3-photo-blok">
+                    <div class="st3-photo2 st3-photo" onclick="Lupa2()">
+                        <div class="st3-navigation-blok">
+                            <img src="st3-lupa1.png" class="st3-lupa1">
+                            <img src="st3-lupa2.png" class="st3-lupa2">
+                        </div>
+                    </div>  
+                    <div class="st3-photo-text-blok-blok">
+                        <div class="st3-photo-text-blok">
+                            <span class="st3-photo-text-big">Quam Nutanus Farum</span>
+                            <span class="st3-photo-text-little">Graphic Design, Mock-Up</span>
+                        </div>
+                    </div>                      
+                </div>     
+                <!-- Третее фото -->
+                <div class="st3-photo-blok">
+                    <div class="st3-photo3 st3-photo"  onclick="Lupa3()">
+                        <div class="st3-navigation-blok">
+                            <img src="st3-lupa1.png" class="st3-lupa1">
+                            <img src="st3-lupa2.png" class="st3-lupa2">
+                        </div>
+                    </div> 
+                    <div class="st3-photo-text-blok-blok">
+                        <div class="st3-photo-text-blok">
+                            <span class="st3-photo-text-big">Usus Legentis Videntur</span>
+                            <span class="st3-photo-text-little">Photography, Hoiday</span>
+                        </div>
+                    </div>                      
+                </div>   
+
+                <!-- Отдельный блок. Низ -->
+                <div class="photo-blok-niz">                    
+
+                    <!-- Четвёртое фото -->
+                    <div class="st3-photo-blok">
+                        <div class="st3-photo4 st3-photo"  onclick="Lupa4()">
+                            <div class="st3-navigation-blok">
+                                <img src="st3-lupa1.png" class="st3-lupa1">
+                                <img src="st3-lupa2.png" class="st3-lupa2">
+                            </div>
+                        </div> 
+                        <div class="st3-photo-text-blok-blok">
+                            <div class="st3-photo-text-blok">
+                                <span class="st3-photo-text-big">Claritas Etiam Processus</span>
+                                <span class="st3-photo-text-little">Photography. Nature</span>
+                            </div>
+                        </div>                      
+                    </div>   
+
+                    <!-- Пятое фото -->
+                    <div class="st3-photo-blok">
+                        <div class="st3-photo5 st3-photo"  onclick="Lupa5()">
+                            <div class="st3-navigation-blok">
+                                <img src="st3-lupa1.png" class="st3-lupa1">
+                                <img src="st3-lupa2.png" class="st3-lupa2">
+                            </div>
+                        </div> 
+                        <div class="st3-photo-text-blok-blok">
+                            <div class="st3-photo-text-blok">
+                                <span class="st3-photo-text-big">Quam Nutanus Farum</span>
+                                <span class="st3-photo-text-little">Graphic Design, Mock-Up</span>
+                            </div>
+                        </div>                      
+                    </div>   
+                    <!-- Шестое фото -->
+                    <div class="st3-photo-blok">
+                        <div class="st3-photo6 st3-photo"  onclick="Lupa6()">
+                            <div class="st3-navigation-blok">
+                                <img src="st3-lupa1.png" class="st3-lupa1">
+                                <img src="st3-lupa2.png" class="st3-lupa2">
+                            </div>
+                        </div> 
+                        <div class="st3-photo-text-blok-blok">
+                            <div class="st3-photo-text-blok">
+                                <span class="st3-photo-text-big">Usus Legentis Videntur</span>
+                                <span class="st3-photo-text-little">Photography, Hoiday</span>
+                            </div>
+                        </div>                      
+                    </div>  
+
+                </div>   
+            </div>
+
+            <!-- Фото. Второй див-->
+            <div class="st3-photo-blok-blok st3-photo-blok-blok2">
+                
+                <!-- Третее фото -->
+                <div class="st3-photo-blok">
+                    <div class="st3-photo3 st3-photo"  onclick="Lupa7()">
+                        <div class="st3-navigation-blok">
+                            <img src="st3-lupa1.png" class="st3-lupa1">
+                            <img src="st3-lupa2.png" class="st3-lupa2">
+                        </div>
+                    </div> 
+                    <div class="st3-photo-text-blok-blok">
+                        <div class="st3-photo-text-blok">
+                            <span class="st3-photo-text-big">Usus Legentis Videntur</span>
+                            <span class="st3-photo-text-little">Photography, Hoiday</span>
+                        </div>
+                    </div>                      
+                </div>   
+
+                <!-- Второе фото -->
+                <div class="st3-photo-blok">
+                    <div class="st3-photo2 st3-photo" onclick="Lupa8()">
+                        <div class="st3-navigation-blok">
+                            <img src="st3-lupa1.png" class="st3-lupa1">
+                            <img src="st3-lupa2.png" class="st3-lupa2">
+                        </div>
+                    </div>  
+                    <div class="st3-photo-text-blok-blok">
+                        <div class="st3-photo-text-blok">
+                            <span class="st3-photo-text-big">Quam Nutanus Farum</span>
+                            <span class="st3-photo-text-little">Graphic Design, Mock-Up</span>
+                        </div>
+                    </div>                      
+                </div>  
+
+                <!-- Первое фото -->
+                <div class="st3-photo-blok">                    
+                    <div class="st3-photo1 st3-photo" onclick="Lupa9()">
+                        <div class="st3-navigation-blok">
+                            <img src="st3-lupa1.png" class="st3-lupa1">
+                            <img src="st3-lupa2.png" class="st3-lupa2">
+                        </div>
+                    </div>
+                    <div class="st3-photo-text-blok-blok">
+                        <div class="st3-photo-text-blok">
+                            <span class="st3-photo-text-big">Claritas Etiam Processus</span>
+                            <span class="st3-photo-text-little">Photography. Nature</span>
+                        </div>
+                    </div>                      
+                </div>  
+
+
+                <!-- Отдельный блок. Низ -->
+                <div class="photo-blok-niz">     
+
+                    <!-- Шестое фото -->
+                    <div class="st3-photo-blok">
+                        <div class="st3-photo6 st3-photo"  onclick="Lupa10()">
+                            <div class="st3-navigation-blok">
+                                <img src="st3-lupa1.png" class="st3-lupa1">
+                                <img src="st3-lupa2.png" class="st3-lupa2">
+                            </div>
+                        </div> 
+                        <div class="st3-photo-text-blok-blok">
+                            <div class="st3-photo-text-blok">
+                                <span class="st3-photo-text-big">Usus Legentis Videntur</span>
+                                <span class="st3-photo-text-little">Photography, Hoiday</span>
+                            </div>
+                        </div>                      
+                    </div>                   
+
+                <!-- Пятое фото -->
+                <div class="st3-photo-blok">
+                    <div class="st3-photo5 st3-photo"  onclick="Lupa11()">
+                        <div class="st3-navigation-blok">
+                            <img src="st3-lupa1.png" class="st3-lupa1">
+                            <img src="st3-lupa2.png" class="st3-lupa2">
+                        </div>
+                    </div> 
+                    <div class="st3-photo-text-blok-blok">
+                        <div class="st3-photo-text-blok">
+                            <span class="st3-photo-text-big">Quam Nutanus Farum</span>
+                            <span class="st3-photo-text-little">Graphic Design, Mock-Up</span>
+                        </div>
+                    </div>                      
+                </div>   
+
+                <!-- Четвёртое фото -->
+                <div class="st3-photo-blok">
+                    <div class="st3-photo4 st3-photo"  onclick="Lupa12()">
+                        <div class="st3-navigation-blok">
+                            <img src="st3-lupa1.png" class="st3-lupa1">
+                            <img src="st3-lupa2.png" class="st3-lupa2">
+                        </div>
+                    </div> 
+                    <div class="st3-photo-text-blok-blok">
+                        <div class="st3-photo-text-blok">
+                            <span class="st3-photo-text-big">Claritas Etiam Processus</span>
+                            <span class="st3-photo-text-little">Photography. Nature</span>
+                        </div>
+                    </div>                      
+                </div>  
+
+            </div>      
+        </div>
+
+            <!-- Фото. Третий див-->
+            <div class="st3-photo-blok-blok st3-photo-blok-blok3">
+                
+                <!-- Второе фото -->
+                <div class="st3-photo-blok">
+                    <div class="st3-photo2 st3-photo" onclick="Lupa13()">
+                        <div class="st3-navigation-blok">
+                            <img src="st3-lupa1.png" class="st3-lupa1">
+                            <img src="st3-lupa2.png" class="st3-lupa2">
+                        </div>
+                    </div>  
+                    <div class="st3-photo-text-blok-blok">
+                        <div class="st3-photo-text-blok">
+                            <span class="st3-photo-text-big">Quam Nutanus Farum</span>
+                            <span class="st3-photo-text-little">Graphic Design, Mock-Up</span>
+                        </div>
+                    </div>                      
+                </div>     
+                <!-- Третее фото -->
+                <div class="st3-photo-blok">
+                    <div class="st3-photo3 st3-photo"  onclick="Lupa14()">
+                        <div class="st3-navigation-blok">
+                            <img src="st3-lupa1.png" class="st3-lupa1">
+                            <img src="st3-lupa2.png" class="st3-lupa2">
+                        </div>
+                    </div> 
+                    <div class="st3-photo-text-blok-blok">
+                        <div class="st3-photo-text-blok">
+                            <span class="st3-photo-text-big">Usus Legentis Videntur</span>
+                            <span class="st3-photo-text-little">Photography, Hoiday</span>
+                        </div>
+                    </div>                      
+                </div>   
+
+                <!-- Первое фото -->
+                <div class="st3-photo-blok">                    
+                    <div class="st3-photo1 st3-photo" onclick="Lupa15()">
+                        <div class="st3-navigation-blok">
+                            <img src="st3-lupa1.png" class="st3-lupa1">
+                            <img src="st3-lupa2.png" class="st3-lupa2">
+                        </div>
+                    </div>
+                    <div class="st3-photo-text-blok-blok">
+                        <div class="st3-photo-text-blok">
+                            <span class="st3-photo-text-big">Claritas Etiam Processus</span>
+                            <span class="st3-photo-text-little">Photography. Nature</span>
+                        </div>
+                    </div>                      
+                </div>   
+
+
+                <!-- Отдельный блок. Низ -->
+                <div class="photo-blok-niz">                         
+
+                    <!-- Пятое фото -->
+                    <div class="st3-photo-blok">
+                        <div class="st3-photo5 st3-photo"  onclick="Lupa16()">
+                            <div class="st3-navigation-blok">
+                                <img src="st3-lupa1.png" class="st3-lupa1">
+                                <img src="st3-lupa2.png" class="st3-lupa2">
+                            </div>
+                        </div> 
+                        <div class="st3-photo-text-blok-blok">
+                            <div class="st3-photo-text-blok">
+                                <span class="st3-photo-text-big">Quam Nutanus Farum</span>
+                                <span class="st3-photo-text-little">Graphic Design, Mock-Up</span>
+                            </div>
+                        </div>                      
+                    </div>   
+                    <!-- Шестое фото -->
+                    <div class="st3-photo-blok">
+                        <div class="st3-photo6 st3-photo"  onclick="Lupa17()">
+                            <div class="st3-navigation-blok">
+                                <img src="st3-lupa1.png" class="st3-lupa1">
+                                <img src="st3-lupa2.png" class="st3-lupa2">
+                            </div>
+                        </div> 
+                        <div class="st3-photo-text-blok-blok">
+                            <div class="st3-photo-text-blok">
+                                <span class="st3-photo-text-big">Usus Legentis Videntur</span>
+                                <span class="st3-photo-text-little">Photography, Hoiday</span>
+                            </div>
+                        </div>                      
+                    </div>  
+
+                    <!-- Четвёртое фото -->
+                    <div class="st3-photo-blok">
+                        <div class="st3-photo4 st3-photo"  onclick="Lupa18()">
+                            <div class="st3-navigation-blok">
+                                <img src="st3-lupa1.png" class="st3-lupa1">
+                                <img src="st3-lupa2.png" class="st3-lupa2">
+                            </div>
+                        </div> 
+                        <div class="st3-photo-text-blok-blok">
+                            <div class="st3-photo-text-blok">
+                                <span class="st3-photo-text-big">Claritas Etiam Processus</span>
+                                <span class="st3-photo-text-little">Photography. Nature</span>
+                            </div>
+                        </div>                      
+                    </div>   
+
+                </div>   
+            </div>
+
+
+            <!-- Фото. Четвёртый див-->
+            <div class="st3-photo-blok-blok  st3-photo-blok-blok4">
+
+                <!-- Четвёртое фото низ-->
+                <div class="st3-photo-blok">
+                    <div class="st3-photo4 st3-photo"  onclick="Lupa19()">
+                        <div class="st3-navigation-blok">
+                            <img src="st3-lupa1.png" class="st3-lupa1">
+                            <img src="st3-lupa2.png" class="st3-lupa2">
+                        </div>
+                    </div> 
+                    <div class="st3-photo-text-blok-blok">
+                        <div class="st3-photo-text-blok">
+                            <span class="st3-photo-text-big">Claritas Etiam Processus</span>
+                            <span class="st3-photo-text-little">Photography. Nature</span>
+                        </div>
+                    </div>                      
+                </div>   
+
+                <!-- Пятое фото низ-->
+                <div class="st3-photo-blok">
+                    <div class="st3-photo5 st3-photo"  onclick="Lupa20()">
+                        <div class="st3-navigation-blok">
+                            <img src="st3-lupa1.png" class="st3-lupa1">
+                            <img src="st3-lupa2.png" class="st3-lupa2">
+                        </div>
+                    </div> 
+                    <div class="st3-photo-text-blok-blok">
+                        <div class="st3-photo-text-blok">
+                            <span class="st3-photo-text-big">Quam Nutanus Farum</span>
+                            <span class="st3-photo-text-little">Graphic Design, Mock-Up</span>
+                        </div>
+                    </div>                      
+                </div>   
+                <!-- Шестое фото низ-->
+                <div class="st3-photo-blok">
+                    <div class="st3-photo6 st3-photo"  onclick="Lupa21()">
+                        <div class="st3-navigation-blok">
+                            <img src="st3-lupa1.png" class="st3-lupa1">
+                            <img src="st3-lupa2.png" class="st3-lupa2">
+                        </div>
+                    </div> 
+                    <div class="st3-photo-text-blok-blok">
+                        <div class="st3-photo-text-blok">
+                            <span class="st3-photo-text-big">Usus Legentis Videntur</span>
+                            <span class="st3-photo-text-little">Photography, Hoiday</span>
+                        </div>
+                    </div>                      
+                </div>  
+
+
+                <!-- Отдельный блок. Низ -->
+                <div class="photo-blok-niz">
+
+                    <!-- Первое фото верх-->
+                    <div class="st3-photo-blok">                    
+                        <div class="st3-photo1 st3-photo" onclick="Lupa22()">
+                            <div class="st3-navigation-blok">
+                                <img src="st3-lupa1.png" class="st3-lupa1">
+                                <img src="st3-lupa2.png" class="st3-lupa2">
+                            </div>
+                        </div>
+                        <div class="st3-photo-text-blok-blok">
+                            <div class="st3-photo-text-blok">
+                                <span class="st3-photo-text-big">Claritas Etiam Processus</span>
+                                <span class="st3-photo-text-little">Photography. Nature</span>
+                            </div>
+                        </div>                      
+                    </div>   
+    
+                    <!-- Второе фото  верх -->
+                    <div class="st3-photo-blok">
+                        <div class="st3-photo2 st3-photo" onclick="Lupa23()">
+                            <div class="st3-navigation-blok">
+                                <img src="st3-lupa1.png" class="st3-lupa1">
+                                <img src="st3-lupa2.png" class="st3-lupa2">
+                            </div>
+                        </div>  
+                        <div class="st3-photo-text-blok-blok">
+                            <div class="st3-photo-text-blok">
+                                <span class="st3-photo-text-big">Quam Nutanus Farum</span>
+                                <span class="st3-photo-text-little">Graphic Design, Mock-Up</span>
+                            </div>
+                        </div>                      
+                    </div>     
+                    <!-- Третее фото  верх-->
+                    <div class="st3-photo-blok">
+                        <div class="st3-photo3 st3-photo"  onclick="Lupa24()">
+                            <div class="st3-navigation-blok">
+                                <img src="st3-lupa1.png" class="st3-lupa1">
+                                <img src="st3-lupa2.png" class="st3-lupa2">
+                            </div>
+                        </div> 
+                        <div class="st3-photo-text-blok-blok">
+                            <div class="st3-photo-text-blok">
+                                <span class="st3-photo-text-big">Usus Legentis Videntur</span>
+                                <span class="st3-photo-text-little">Photography, Hoiday</span>
+                            </div>
+                        </div>                      
+                    </div>       
+
+                </div>   
+            </div>         
+
+
+            <!-- Фото. Пятый див-->
+            <div class="st3-photo-blok-blok st3-photo-blok-blok5">    
+
+                <!-- Пятое фото низ-->
+                <div class="st3-photo-blok">
+                    <div class="st3-photo5 st3-photo"  onclick="Lupa25()">
+                        <div class="st3-navigation-blok">
+                            <img src="st3-lupa1.png" class="st3-lupa1">
+                            <img src="st3-lupa2.png" class="st3-lupa2">
+                        </div>
+                    </div> 
+                    <div class="st3-photo-text-blok-blok">
+                        <div class="st3-photo-text-blok">
+                            <span class="st3-photo-text-big">Quam Nutanus Farum</span>
+                            <span class="st3-photo-text-little">Graphic Design, Mock-Up</span>
+                        </div>
+                    </div>                      
+                </div>   
+                <!-- Шестое фото низ-->
+                <div class="st3-photo-blok">
+                    <div class="st3-photo6 st3-photo"  onclick="Lupa26()">
+                        <div class="st3-navigation-blok">
+                            <img src="st3-lupa1.png" class="st3-lupa1">
+                            <img src="st3-lupa2.png" class="st3-lupa2">
+                        </div>
+                    </div> 
+                    <div class="st3-photo-text-blok-blok">
+                        <div class="st3-photo-text-blok">
+                            <span class="st3-photo-text-big">Usus Legentis Videntur</span>
+                            <span class="st3-photo-text-little">Photography, Hoiday</span>
+                        </div>
+                    </div>                      
+                </div> 
+
+                <!-- Четвёртое фото низ-->
+                <div class="st3-photo-blok">
+                    <div class="st3-photo4 st3-photo"  onclick="Lupa27()">
+                        <div class="st3-navigation-blok">
+                            <img src="st3-lupa1.png" class="st3-lupa1">
+                            <img src="st3-lupa2.png" class="st3-lupa2">
+                        </div>
+                    </div> 
+                    <div class="st3-photo-text-blok-blok">
+                        <div class="st3-photo-text-blok">
+                            <span class="st3-photo-text-big">Claritas Etiam Processus</span>
+                            <span class="st3-photo-text-little">Photography. Nature</span>
+                        </div>
+                    </div>                      
+                </div>  
+
+                <!-- Отдельный блок. Низ -->
+                <div class="photo-blok-niz">                    
+                    <!-- Второе фото верх-->
+                    <div class="st3-photo-blok">
+                        <div class="st3-photo2 st3-photo" onclick="Lupa28()">
+                            <div class="st3-navigation-blok">
+                                <img src="st3-lupa1.png" class="st3-lupa1">
+                                <img src="st3-lupa2.png" class="st3-lupa2">
+                            </div>
+                        </div>  
+                        <div class="st3-photo-text-blok-blok">
+                            <div class="st3-photo-text-blok">
+                                <span class="st3-photo-text-big">Quam Nutanus Farum</span>
+                                <span class="st3-photo-text-little">Graphic Design, Mock-Up</span>
+                            </div>
+                        </div>                      
+                    </div>     
+                    <!-- Третее фото верх-->
+                    <div class="st3-photo-blok">
+                        <div class="st3-photo3 st3-photo"  onclick="Lupa29()">
+                            <div class="st3-navigation-blok">
+                                <img src="st3-lupa1.png" class="st3-lupa1">
+                                <img src="st3-lupa2.png" class="st3-lupa2">
+                            </div>
+                        </div> 
+                        <div class="st3-photo-text-blok-blok">
+                            <div class="st3-photo-text-blok">
+                                <span class="st3-photo-text-big">Usus Legentis Videntur</span>
+                                <span class="st3-photo-text-little">Photography, Hoiday</span>
+                            </div>
+                        </div>                      
+                    </div>   
+                    
+                      <!-- Первое фото верх-->
+                    <div class="st3-photo-blok">                    
+                        <div class="st3-photo1 st3-photo" onclick="Lupa30()">
+                            <div class="st3-navigation-blok">
+                                <img src="st3-lupa1.png" class="st3-lupa1">
+                                <img src="st3-lupa2.png" class="st3-lupa2">
+                            </div>
+                        </div>
+                        <div class="st3-photo-text-blok-blok">
+                            <div class="st3-photo-text-blok">
+                                <span class="st3-photo-text-big">Claritas Etiam Processus</span>
+                                <span class="st3-photo-text-little">Photography. Nature</span>
+                            </div>
+                        </div>                      
+                    </div>         
+                </div>   
+            </div>                 
+        </div>
+        
+                        <!-- Четвёртый экран. (С видео) -->
+        <div class="start4">     
+            <video  id="video" src="video.mp4" onclick="PauseAi()" ></video>       
+            <div id="butt" class="button" onclick="PlayAi()"></div>
+            <div class="st4-text-blok">
+                <span class="st4-text-big">Waxom Video Presentatuion</span>
+                <span class="st4-text-little">Investigationes demonstraverunt lectores legere me lius quod li legunt saeplus, qui sequitur mutationem consuetudium.</span>
+            </div>
+        </div>
+
+                        <!-- Пятый экран. С рукой и айфоном -->
+        <div class="start5">
+            <img src="iPhone.png" class="iPhone">
+            <div class="st5-blok-blok">
+                <div class="st5-blok-text1">
+                    <b class="st5-text-big">Exellent for Mobile Devices.</b>   
+                    <span class="st5-text-little">Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius claritas. Eodem modo typi, qui nunc nobis videntur parum, fiant sollemnes in futurum.</span>             
+                </div>                
+                <div class="st5-blok-text2">  
+                    <div class="blok-arow-text">
+                        <img src="i1.png" class="arrow">
+                        <span class="arrow-text">Nam liber tempor cum soluta nobis eleifend option.</span>
+                    </div>
+
+                    <div class="blok-arow-text">
+                        <img src="i1.png" class="arrow">
+                        <span class="arrow-text">Option congue nihil imperdiet doming id quod mazim placerat face.</span>
+                    </div>
+
+                    <div class="blok-arow-text">
+                        <img src="i1.png" class="arrow">
+                        <span class="arrow-text">Eodem modo typi, qui nunc nobis videntur parum futurum.</span>
+                    </div>
+
+                    <div class="blok-arow-text">
+                        <img src="i1.png" class="arrow">
+                        <span class="arrow-text">Investigationes demonstraverunt lectores. </span>
+                    </div>                                  
+                </div>
+            </div>
+        </div>
+
+                        <!-- Шестой экран -->
+        <div class="st6">
+            <div class="st6-blok-blok">
+                <div class="st6-blok st6blok1">
+                    <img src="st6-icon.png">
+                    <span class="st6-nomber">3587</span>
+                    <span class="st6-text">SATISFIED CLIENTS</span>
+                    <div class="line"></div>
+                </div>
+
+                <div class="st6-blok st6blok2">
+                    <img src="st6-icon2.png">
+                    <span class="st6-nomber">207</span>
+                    <span class="st6-text">CUPS OF COFFEE</span>
+                    <div class="line"></div>
+                </div>
+
+                <div class="st6-blok st6blok3">
+                    <img src="st6-icon3.png">
+                    <span class="st6-nomber">2500</span>
+                    <span class="st6-text">BLOG POSTS</span>
+                    <div class="line"></div>
+                </div>
+                        
+                <div class="st6-blok st6blok4">
+                    <img src="st6-icon4.png">
+                    <span class="st6-nomber">873</span>
+                    <span class="st6-text">LIKES</span>
+                    <div class="line"></div>
+                </div>
+                    
+                <div class="st6-blok st6blok5">
+                    <img src="st6-icon5.png">
+                    <span class="st6-nomber">900</span>
+                    <span class="st6-text">WE LAUNCHED</span>
+                    <div class="line"></div>
+                </div>
+            </div>    
+        </div>       
+        
+                        <!-- Седьмой экран -->
+        <div class="start7">
+            <div class="st7-blok-text">
+                <b class="st7-text-big">Recents Posts</b>
+                <span class="st7-text-litlle">Investigationes demonstraverunt lectores legere me lius quod li legunt saeplus, qui sequitur mutationem consuetudium.</span>
+            </div>    
+            
+            <!-- Фото часть -->
+            <div class="st7-photo-blok-blok st7-photo-blok-blok1">
+
+                <!-- Первое фото -->
+                <div class="st7-photo-blok" id="st7-photo-blok1" > 
+                    <div class="st7-photo1" onclick="St7Photo1()">
+                        <div class="st7-number-blok-blok">
+                            <div class="st7-number-blok-top">
+                                <span class="st7-number-top">30</span>
+                            </div>
+                            <div class="st7-number-blok-bott">
+                                <span class="st7-number-bott">Sap.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="st7-blok-photo-text">
+                        <span class="st7-photo-text-big">Lorem ipsum dolor sit amet</span>
+                        <span class="st7-photo-text-little">Claritas est etiam processus dynamicus. Qui sequitur mutationem consuetudium.</span>
+                        <div class="st7-photo-link-blok">
+                            <span class="st7-photo-link">Read more</span>
+                            <img src="st7-arrow.png" class="st7-photo-link-arrow">
+                        </div>                        
+                    </div>
+                </div>   
+
+                <!-- Второе фото -->
+                <div class="st7-photo-blok" id="st7-photo-blok2">
+                    <div class="st7-photo2" onclick="St7Photo2()">
+                        <div class="st7-number-blok-blok">
+                            <div class="st7-number-blok-top">
+                                <span class="st7-number-top">30</span>
+                            </div>
+                            <div class="st7-number-blok-bott">
+                                <span class="st7-number-bott">Sap.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="st7-blok-photo-text">
+                        <span class="st7-photo-text-big">Lorem ipsum dolor sit amet</span>
+                        <span class="st7-photo-text-little">Claritas est etiam processus dynamicus. Qui sequitur mutationem consuetudium.</span>
+                        <div class="st7-photo-link-blok">
+                            <span class="st7-photo-link">Read more</span>
+                            <img src="st7-arrow.png" class="st7-photo-link-arrow">
+                        </div>                        
+                    </div>
+                </div>   
+
+                <!--Третее фото-->
+                <div class="st7-photo-blok" id="st7-photo-blok3">
+                    <div class="st7-photo3" onclick="St7Photo3()">
+                        <div class="st7-number-blok-blok">
+                            <div class="st7-number-blok-top">
+                                <span class="st7-number-top">30</span>
+                            </div>
+                            <div class="st7-number-blok-bott">
+                                <span class="st7-number-bott">Sap.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="st7-blok-photo-text">
+                        <span class="st7-photo-text-big">Lorem ipsum dolor sit amet</span>
+                        <span class="st7-photo-text-little">Claritas est etiam processus dynamicus. Qui sequitur mutationem consuetudium.</span>
+                        <div class="st7-photo-link-blok">
+                            <span class="st7-photo-link">Read more</span>
+                            <img src="st7-arrow.png" class="st7-photo-link-arrow">
+                        </div>                        
+                    </div>
+                </div>     
+            </div>
+
+            <!-- Кнопки -->
+            <div class="st7-button-blok">
+                <div class="st7-left" onclick="Blet2()"></div>
+                <div class="st7-right" onclick="Blet1()"></div>                              
+            </div>            
+        </div>                
+        
+                        <!-- Восьмой экран -->
+        <div class="start8">
+            <div class="st8-logo-blok">
+                <a href="cap.html">
+                    <img src="st8-logo1.png" class="st8-logo st8log1">
+                </a>
+                <a href="cap.html">
+                    <img src="st8-logo2.png" class="st8-logo ">
+                </a>
+                <a href="cap.html">
+                    <img src="st8-logo3.png" class="st8-logo st8log3">
+                </a>
+                <a href="cap.html">
+                    <img src="st8-logo4.png" class="st8-logo st8log4">
+                </a>
+            </div>
+        </div>    
+                 
+                    <!-- Девятый экран -->
+        <div class="start9">          
+
+            <!-- Первый блок -->
+            <div class="st9-blok1">
+                <img src="st9-logo.png">
+                <span class="st9-bl1-text-little">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci suscipit lobortis claritatem.</span>
+                <div class="st9-link-arrow-blok" onclick="St9Link()">
+                    <span class="st9-link-arrow-text">Reaf More</span>
+                    <img src="st7-arrow.png">
+                </div>                    
+            </div>
+
+            <div class="st9-super-blok">
+                <!-- Второй блок -->
+                <div class="st9-blok2">
+                    <span class="st9-text-big">Recent Posts</span>
+                    <span class="st9-date-top1">September 08, 2015</span>
+                    <span class="st9-bl2-text-little">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</span>
+                    <div class="st9-line"></div>
+                    <span class="st9-date-top2">September 08, 2015</span>
+                    <span class="st9-bl2-text-little">Diam nonummy nibh euismod tincidunt ut laoreet dolore magna</span>
+                    <div class="st9-line"></div>
+                    <span class="st9-date-top2">September 08, 2015</span>
+                    <span class="st9-bl2-text-little">Claritas est etiam processus dynamicus, qui sequitur mutationem per seacula quarta decima</span>                    
+                </div>
+
+                <!-- Третий блок -->
+                <div class="st9-blok3">
+                    <span class="st9-text-big">Our Twitter</span>
+                    <div class="st9-bl3-blok-text-little">
+                        <a href="cap.html">
+                            <span class="st9-link2">@waxom </span>
+                        </a>
+                        <span class="st9-bl3-text-little">Cum soluta nobis eleifend option congue nihil imperdiet doming</span>
+                    </div>
+                    <span class="st9-date-bott">3 mins ago</span>
+                    <div class="st9-line"></div>
+
+                    <div class="st9-bl3-blok-text-little">
+                        <span class="st9-bl3-text-little">Mirum est </span>
+                        <a href="cap.html">
+                            <span class="st9-link2">#envato </span>
+                        </a>
+                        <span class="st9-bl3-text-little">notare quam littera gothica, quam nunc putamus parum anteposuerit litterarum</span>
+                    </div>
+                    <span class="st9-date-bott">5 hours ago</span>
+                    <div class="st9-line"></div>
+
+                    <div class="st9-bl3-blok-text-little">
+                        <span class="st9-bl3-text-little">Soluta nobis option </span>
+                        <a href="cap.html">
+                            <span class="st9-link3">bit.ly/1Hniso7</span>
+                        </a>
+                    </div>
+                    <span class="st9-date-bott">20 days ago</span>
+                </div>
+
+                <!-- Четвёртый блок -->
+                <div class="st9-blok4">
+                    <span class="st9-text-big">Dribbble Widget</span>
+                    <div class="st9-photo-blok">
+                        <a href="cap.html">                            
+                            <img src="st9-photo1.png" class="st9-photo">
+                        </a>
+                        <a href="cap.html">
+                            <img src="st9-photo2.png" class="st9-photo">
+                        </a>
+                        <a href="cap.html">
+                            <img src="st9-photo3.png" class="st9-photo">
+                        </a>
+                        <a href="cap.html">
+                            <img src="st9-photo4.png" class="st9-photo">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+                    <!-- Десятый экран -->
+        <div class="start10">
+            <div class="st10-blok-text1">
+                <span class="st10-text st10text">Copyright © 2015 </span>
+                <span class="st10-link1 st10text">Waxom</span>
+                <span class="st10-line st10text">|</span>
+                <span class="st10-text st10text">Privacy Policy</span>
+                <span class="st10-line st10text">|</span>
+                <span class="st10-link1 st10text">FAQ</span>
+                <span class="st10-line st10text">|</span>
+                <span class="st10-text st10text">Support</span>
+            </div>
+
+            <div class="st10-blok-text2">
+                <span class="st10-text st10text">Designed by </span>
+                <span class="st10-link1 st10text">ThemeFire</span>
+                <span class="st10-line st10text">|</span>
+                <span class="st10-text st10text">Only on </span>
+                <span class="st10-link1 st10text">Envato Market</span>
+            </div>
+        </div>           
+        
+
+    </body>
+</html>
